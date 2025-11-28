@@ -1,9 +1,0 @@
-let YeisonBase = [100, 250, 399, 75];
-
-let davidAumento = YeisonBase.map(Yeison => Yeison * 1.10);
-
-console.log("Originales:", YeisonBase);
-console.log("Con 10% aumento:", davidAumento);
-
-//map() - Crear un nuevo arrayAplicar una función a cada elemento de un array y devolver un nuevo array con los resultados.
-//Diferencia con filter() filter(): Selecciona elementos (puede haber menos) map(): Transforma todos los elementos (misma cantidad)
